@@ -29,7 +29,7 @@ resource "openstack_compute_secgroup_v2" "secgroup_2" {
 
 resource "openstack_networking_floatingip_v2" "flip_1" {
   pool    = "my_pool"
-  address = "86.50.252.169"
+  address = "128.214.254.0"
 }
 
 resource "openstack_compute_instance_v2" "vm1" {
